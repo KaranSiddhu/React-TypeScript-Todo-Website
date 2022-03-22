@@ -60,7 +60,7 @@ const SingleTodo = ({ todo, key, todos, setTodos }: Props) => {
               if (!isEdit && !todo.isDone) {
                 setIsEdit(!isEdit);
               }
-              toast.info("Press Enter to edit")
+              toast.info("Press Enter to save.")
             }}
           >
             <AiFillEdit />
